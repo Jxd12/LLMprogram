@@ -4,7 +4,8 @@ import java.util.Scanner;
 public class WatermarkApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+
+
         // 获取图片文件路径或目录路径
         System.out.print("请输入图片文件路径或目录路径: ");
         String path = scanner.nextLine();
